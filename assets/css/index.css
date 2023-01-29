@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Pangram-Regular';
+    src: url(../fonts/eot/Pangram-Regular.eot);
+    src: url(../fonts/eot/Pangram-Regular.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/ttf/Pangram-Regular.ttf) format('truetype'),
+         url(../fonts/otf/Pangram-Regular.otf) format('otf'),
+         url(../fonts/svg/Pangram-Regular.svg#Pangram-Regular) format('svg'),
+         url(../fonts/woff/Pangram-Regular.woff) format('woff'),
+         url(../fonts/woff/Pangram-Regular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Pangram-Light';
+    src: url(../fonts/eot/Pangram-Light.eot);
+    src: url(../fonts/eot/Pangram-Light.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/otf/Pangram-Light.otf) format('otf'),
+         url(../fonts/svg/Pangram-Light.svg#Pangram-Light) format('svg'),
+         url(../fonts/ttf/Pangram-Light.ttf) format('truetype'),
+         url(../fonts/woff/Pangram-Light.woff) format('woff'),
+         url(../fonts/woff/Pangram-Light.woff2) format('woff2');
+}
+  
+
+
+* {
+    font-family: 'Pangram-Regular';
+    padding: 0;
+    margin: 0;;
+}
+body {
+    background-image: url(../img/bg.svg);
+}
+.desktop-nav {
+    display: block;
+}
+.header-mobile {
+    display: none;
+}
+.mobile-nav .nav-section .section-head .head-title {
+    display: flex;
+    align-content: center;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    background-blend-mode: normal;
+    box-shadow: 0px 2px 4px #c8e6c97a;
+}
+.mobile-nav .nav-section .section-head .head-title .head-home {
+    position: relative;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-nav .nav-section .section-head .head-title .head-home a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+.mobile-nav .nav-section .section-head .head-title .head-home a h1 {
+    font-size: 1.3em;
+}
+.mobile-nav .nav-section .section-head .head-title .head-menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+
+.sowpal-main {
+    margin-top: 12vh;
+}
+.sowpal-main .main-caption {
+    padding: 10px 20px;
+}
+.sowpal-main .main-caption h1 {
+    font-size: 3em;
+}
+.sowpal-main .main-text {
+    padding: 10px 20px;
+}
+.sowpal-main .main-text p {
+    font-size: 1.05em;
+    color: #001f00;
+    font-family: 'Pangram-Regular';
+}
+.sowpal-main .main-image {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+#sowpal {
+    color: #4CAF50;
+    font-style: normal;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+    .desktop-nav {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+    }
+}
