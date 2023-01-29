@@ -57,9 +57,12 @@ body {
 .mobile-nav .nav-section .section-head .head-title .head-home a {
     text-decoration: none;
     color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .mobile-nav .nav-section .section-head .head-title .head-home a h1 {
-    font-size: 1.3em;
+    font-size: 1.9em;
 }
 .mobile-nav .nav-section .section-head .head-title .head-menu {
     position: relative;
