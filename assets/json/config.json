@@ -1,0 +1,33 @@
+{
+    "project": "sowpal",
+    "projectName": "sowpal",
+    "projectUrl": "https://sowpal.com",
+    "projectLogoUrl": "../assets/img/logo.png",
+    "projectDescription": "we use cutting-edge artificial intelligence technologies to revolutionize the way we grow crops and raise livestock. Our precision farming methods increase yields, reduce costs, and minimize environmental impact. From precision planting to autonomous tractors and drones, we provide farmers with the tools they need to optimize every aspect of their operations. Whether you're a large-scale commercial farmer or a small-scale hobbyist, we have the technology to help you achieve your goals. Join the future of farming with sowpal.",
+    "projectDescriptionShort": "Your AI pair algriculturist",
+    "ProjectEmail": "ai@sowpal.com",
+    "projectCopyright": "Copyright (c) 2023 Stateless Technology",
+    "projectKeywords": [
+        "AI",
+        "Artifictal intelligence",
+        "Art",
+        "Farming",
+        "Agriculture",
+        "Technologies",
+        "Warnings",
+        "Revolution",
+        "Organ",
+        "photosystems",
+        "Photosynthensis",
+        "Grow",
+        "store",
+        "storage",
+        "Economics",
+        "Statistics",
+        "Processing",
+        "Food Processing"
+    ],
+    "$schema": {
+
+    }
+}
